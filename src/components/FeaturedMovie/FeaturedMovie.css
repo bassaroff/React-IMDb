@@ -1,0 +1,85 @@
+/* .featured{
+    height: 80vh;
+    background-size: contain;
+    background-position: top;
+} */
+.featured-vertical{
+    width: inherit;
+    height: inherit;
+    background:linear-gradient(to top, #111 5%, transparent 90%);
+}
+/* .featured-vertical-top{
+    width: inherit;
+    height: inherit;
+    background:linear-gradient(to bottom, #111 5%, transparent 90%);
+} */
+.featured-block{
+    width: inherit;
+    height: inherit;
+    margin-left: 45px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    
+}
+.featured-horizontal{
+    width: inherit;
+    height: inherit;
+    background:linear-gradient(to right, #111 30%, transparent 70%);
+}
+.featured-name{
+    font-size: 60px;
+    font-weight: bold;
+    max-width: 50%;
+}
+.featured-info{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.featured-points, 
+.featured-year, 
+.featured-director{
+    display: inline-block;
+    margin-right: 15px;
+}
+.featured-points{
+    color: crimson;
+}
+.featured-description{
+    margin-top: 15px;
+    font-size: 20px;
+    color:#999;
+    max-width: 40%;
+}
+.featured-watchbutton,
+.featured-addbutton {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.featured-buttons a{
+    text-decoration: none;
+}
+.featured-watchbutton{
+    background-color: #fff;
+    color: #000;
+}
+.featured-addbutton {
+    background-color: #333;
+    color: #fff;
+}
+.featured-watchbutton:hover{
+    color: crimson;
+    transition: all ease 0.2s;
+}
+.featured-addbutton:hover{
+    color: crimson;
+    transition: all ease 0.2s;
+}

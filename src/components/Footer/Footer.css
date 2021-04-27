@@ -1,0 +1,44 @@
+.footer{
+    width: 100%;
+}
+.social-link-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-links li{
+    display: inline;
+    margin:0px 10px;
+    font-size: 30px;
+    
+}
+.social-links li a{
+    color:white;
+    text-decoration: none;
+}
+.social-links li a:hover{
+    color: crimson;
+    transition: all ease 0.2s;
+}
+.other-links-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.other-links-block li{
+    display: inline;
+    margin: 0 30px;
+}
+.other-links-block a{
+    color: white;
+    text-decoration: none;
+}
+.other-links-block a:hover{
+    color: crimson;
+    transition: all ease 0.2s;
+}
+.logo-footer{
+    color:crimson;
+    font-size: 30px;
+}

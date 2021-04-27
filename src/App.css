@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background: #111;
+  color: white;
+}
+/* .main-margin{
+  margin-top: 80px;
+} */
+.search-box
+{
+  background : #2F3640;
+  height : 40px;
+  border-radius : 40px;
+  margin-right: 2rem;
+}
+.search-btn
+{
+  color : crimson;
+  float : right;
+  width : 40px!important;
+  height : 40px;
+  border-radius: 50%;
+  background : white;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  transition:0.4s;
+}
+.search-txt
+{
+  border:none;
+  background:none;
+  outline:none;
+  color: #fff;
+  font-size:16px;
+  transition : 0.4s;
+  line-height: 40px;
+  width : 0px;
+  padding:0;
+}
+.search-box:hover > .search-txt
+{
+  width: 240px;
+  padding: 0 6px;
+}
+.search-box:hover > .search-btn
+{
+ background:white;
+}
+.movie-heading{
+  margin-left:20px;
+}
+.share-button{
+  cursor: pointer;
+  color: gray;
+  font-size: 20px;
+}
+.share-button:hover{
+  color: black;
+}
+.order-button{
+  cursor: pointer;
+  background-color: gray;
+  color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.your-rating, .add-movie{
+  color:gray;
+  cursor: pointer;
+  font-size: 25px;
+}
+.your-rating:hover, .add-movie:hover{
+  color:cornflowerblue;
+}
+.line{
+  height: 2px;
+  width: 100%;
+  background-color: gray;
+}
+
+.rate{
+  cursor: pointer;
+}
+.rate:hover{
+  background-color:cornflowerblue;
+}
+/* .movie-app > .row{
+  overflow-x: auto;
+  flex-wrap: nowrap;
+}
+.image-container{
+  position: relative;
+  transition: transform 0.2s;
+  width: 180px;
+  margin:0px 10px;
+}
+.image-container img{
+  width: 100%;
+}
+.image-container:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.image-container:hover .overlay{
+  opacity: 1;
+}
+
+.overlay{
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  transition: 0.5s ease;
+  opacity: 0;
+  bottom: 0;
+  font-size: 10px;
+  padding: 20px;
+  text-align: center;
+} */
